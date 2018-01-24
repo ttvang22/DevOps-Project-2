@@ -25,16 +25,16 @@
 	</properties>		
 	
 	<distributionManagement>
-		<repository>
-			<id>release</id>
-			<name>releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-        		<id>snapshots</id>
-        		<name>snapshots</name>
-        		<url>http://localhost:8081/artifactory/libs-snapshot</url>
-    		</snapshotRepository>
+        <repository>
+            <id>central</id>
+            <name>toutvanglaptop-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>toutvanglaptop-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </snapshotRepository>
 	</distributionManagement>
 
 	<scm>
