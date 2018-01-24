@@ -27,12 +27,12 @@
 	<distributionManagement>
 		<repository>
 			<id>release</id>
-			<name>toutvanglaptop-releases</name>
+			<name>releases</name>
 			<url>http://localhost:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
         		<id>snapshots</id>
-        		<name>toutvanglaptop-snapshots</name>
+        		<name>snapshots</name>
         		<url>http://localhost:8081/artifactory/libs-snapshot</url>
     		</snapshotRepository>
 	</distributionManagement>
