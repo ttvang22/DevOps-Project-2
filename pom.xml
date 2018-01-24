@@ -22,19 +22,19 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-	</properties>
+	</properties>		
 	
 	<distributionManagement>
 		<repository>
 			<id>release</id>
-			<name>releases</name>
+			<name>toutvanglaptop-releases</name>
 			<url>http://localhost:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
+        		<id>snapshots</id>
+        		<name>toutvanglaptop-snapshots</name>
+        		<url>http://localhost:8081/artifactory/libs-snapshot</url>
+    		</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
