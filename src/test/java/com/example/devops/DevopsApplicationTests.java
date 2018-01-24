@@ -11,6 +11,7 @@ public class DevopsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
